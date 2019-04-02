@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimaryDark">#dce1e5</color>
-    <color name="colorAccent">#1687ef</color>
-    <color name="Login_Button">#1687ef</color>
-    <color name="Login_EditText">#096dd9</color>
-</resources>
