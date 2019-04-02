@@ -13,5 +13,5 @@ Android_2018 羽毛球作业
 	* MainActivity.java		//主页面
 	* MySelf.java			//登陆完成用户信息页面
 	* RegisterAcitvity.java		//注册用户页面
-	* User_Handle.java		//用户基础工具
+	* User_Handle.java		//用户操作基础工具
 	* Userdb.java                   //用户数据库
