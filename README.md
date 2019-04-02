@@ -6,7 +6,7 @@ Android_2018 羽毛球作业
 			* ImageView.java 	//注册页面圆角图片框组件
 		* ViewPager
 			* ForgotAdapter.java    //忘记密码页面ViewPager适配器
-			* MyViewPager.java	
+			* MyViewPager.java	//ViewPager禁止滑动
 			* PagerAdapter.java     //注册密码页面ViewPager适配器
 		* ExcelUtils.java		//Excel读取工具
 		* ForgotActivity.java		//忘记密码页面
