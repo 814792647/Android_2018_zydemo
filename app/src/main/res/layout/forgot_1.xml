@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/fr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/forgot_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="手机号"
+                android:theme="@style/Login_EditText"
+                android:inputType="phone"
+                android:maxLength="11"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/fr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/forgot_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="问题："/>
+            <TextView
+                android:id="@+id/forgot_question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:layout_below="@id/forgot_question"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/forgot_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="答案"
+                android:theme="@style/Login_EditText"
+                android:layout_below="@id/forgot_question1" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/fr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/forgot_passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="新密码"
+                android:theme="@style/Login_EditText"
+                android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/forgot_secpasswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="确认密码"
+                android:theme="@style/Login_EditText"
+                android:inputType="textPassword"
+                android:layout_below="@id/forgot_passwd"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:theme="@style/Next_Button"
+        android:text="下一步"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

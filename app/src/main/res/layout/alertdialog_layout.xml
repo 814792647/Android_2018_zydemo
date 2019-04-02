@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/man"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:hint="男"
+            android:inputType="number"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/man"
+            android:id="@+id/dialog_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text=":"/>
+        <EditText
+            android:gravity="center"
+            android:layout_toRightOf="@id/dialog_t1"
+            android:id="@+id/woman"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:hint="女"
+            android:inputType="number"/>
+    </RelativeLayout>
+</RelativeLayout>

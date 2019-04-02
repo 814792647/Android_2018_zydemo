@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="prompt">羽毛球等级</string>
+</resources>
