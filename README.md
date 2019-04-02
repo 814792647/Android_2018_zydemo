@@ -1,4 +1,4 @@
-Android_2018 羽毛球作业demo
+Android_2018 羽毛球作业
 ======================
 *./app/src/main/java/com/example/
 	*zy_demo
